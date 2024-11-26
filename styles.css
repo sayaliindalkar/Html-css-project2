@@ -1,0 +1,315 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Browse Topics Section */
+  .browse-topics {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  .browse-topics .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .browse-topics h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  .tabs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .tabs li {
+    padding: 10px 20px;
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabs li:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  .tabs li.active {
+    background-color: #333;
+    color: white;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .badge {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  /* How Does It Work Section */
+  .how-it-works {
+    background: linear-gradient(to bottom, rgba(91, 210, 243, 0.8), rgba(46, 168, 158, 0.8)), url('https://businessfirstfamily.com/wp-content/uploads/2015/09/corporate-office-interior-design.jpg') center/cover no-repeat;
+    color: white;
+    padding: 4rem 1rem;
+  }
+  
+  
+  .how-it-works .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  .how-it-works h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .step {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    color: white;
+  }
+  
+  .step .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .step h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 16px;
+  }
+  
+  .cta {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  
+  .cta a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cta a:hover {
+    text-decoration: underline;
+  }
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Browse Topics Section */
+.browse-topics {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.browse-topics .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.browse-topics h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.tabs {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tabs li {
+  padding: 10px 20px;
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tabs li:hover {
+  background-color: #555;
+  color: white;
+}
+
+.tabs li.active {
+  background-color: #333;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* How Does It Work Section */
+.how-it-works {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fillustration%2Finterest-group.html&psig=AOvVaw0JsL5mSCq6z5iPVkbuv-i7&ust=1732617755442000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDz7sKm94kDFQAAAAAdAAAAABAI');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(56, 167, 167);
+  padding: 50px 0;
+}
+
+.how-it-works .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+  color: rgb(17, 29, 29);
+}
+
+.how-it-works h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.step {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  color: white;
+}
+
+.step .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.step h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 16px;
+}
+
+.cta {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.cta a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta a:hover {
+  text-decoration: underline;
+}
+  
